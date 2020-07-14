@@ -12,7 +12,7 @@ weekly_figures = pd.read_excel(covid_weekly_death_toll_file, 'Weekly figures 202
 df = pd.DataFrame(data=weekly_figures)
 
 # Select the rows we want
-df = df.loc[[4, 16, 17]]
+df = df.loc[[4, 7, 16, 17]]
 
 # transpose data set so the we have the correct headers
 df = df.T
